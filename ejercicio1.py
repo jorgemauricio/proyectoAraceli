@@ -25,7 +25,7 @@ variableMayor(x,y)
 
 
 #agregar una suma hacer el git y subirlo
-def suma(x,y):
+def sumaVariables(x,y):
 	x = int(input("Dame el valor a sumar de x: "))
-y = int(input("Dame el valor a sumar de y: "))
-print("La multiplicación de x = {} y y = {} es: {}".format(x,y, multiplicarVariables(x,y))) 
+	y = int(input("Dame el valor a sumar de y: "))
+	print("La suma de x = {} y y = {} es: {}".format(x,y, sumaVariables(x,y))) 
