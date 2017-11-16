@@ -1,4 +1,15 @@
+"""
+	ejercicio1.py
+"""
+# Librerias
+
+# Métodos
 def multiplicarVariables(x, y):
+	"""
+	Multiplica los valores x y y
+	param: x: valor de x
+	param: y: valor de y
+	"""
 	return x * y
 
 def variableMayor(x,y):
@@ -22,7 +33,6 @@ print("La multiplicación de x = {} y y = {} es: {}".format(x,y, multiplicarVari
 
 # imprimir la variable mayor
 variableMayor(x,y)
-
 
 #agregar una suma hacer el git y subirlo
 def sumaVariables(x,y):
