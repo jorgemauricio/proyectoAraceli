@@ -15,8 +15,8 @@ def variableMayor(x,y):
 	else:
 		print("y es mayor a x")
 
-x = int(input("Dame el valor de x: "))
-y = int(input("Dame el valor de y: "))
+x = int(input("Dame el valor a multiplicar de x: "))
+y = int(input("Dame el valor a multiplicar de y: "))
 
 print("La multiplicación de x = {} y y = {} es: {}".format(x,y, multiplicarVariables(x,y))) 
 
@@ -25,7 +25,8 @@ variableMayor(x,y)
 
 
 #agregar una suma hacer el git y subirlo
-def suma(x,y):
+def sumarVariables(x,y):
+	return x + y
 	x = int(input("Dame el valor a sumar de x: "))
 y = int(input("Dame el valor a sumar de y: "))
-print("La multiplicación de x = {} y y = {} es: {}".format(x,y, multiplicarVariables(x,y))) 
+print("La multiplicación de x = {} y y = {} es: {}".format(x,y, sumarVariables(x,y))) 
